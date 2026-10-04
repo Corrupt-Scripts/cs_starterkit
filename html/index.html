@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>CS Starter Kit</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link href="https://fonts.googleapis.com/css2?family=Rajdhani:wght@500;600;700&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="app" class="hidden">
+        <div class="panel" id="panel">
+            <button class="close" id="closeBtn" title="Close (Esc)">&times;</button>
+
+            <header>
+                <div class="brand">CORRUPT <span>SCRIPTS</span></div>
+                <h1 id="title">Starter Kit</h1>
+                <p id="subtitle"></p>
+                <div class="who">
+                    <div class="gender" id="genderBadge">
+                        <span class="symbol" id="genderSymbol"></span>
+                        <span id="genderLabel"></span>
+                    </div>
+                    <div class="name" id="playerName"></div>
+                </div>
+            </header>
+
+            <section>
+                <div class="section-title">Items</div>
+                <div class="items" id="items"></div>
+            </section>
+
+            <section class="row">
+                <div class="money">
+                    <div class="section-title">Cash</div>
+                    <div class="amount" id="cash"></div>
+                </div>
+                <div class="money">
+                    <div class="section-title">Bank</div>
+                    <div class="amount" id="bank"></div>
+                </div>
+            </section>
+
+            <section id="vehicleSection">
+                <div class="section-title">Vehicle</div>
+                <div class="vehicle">
+                    <img id="vehicleImg" alt="">
+                    <div>
+                        <div class="veh-label" id="vehicleLabel"></div>
+                        <div class="veh-sub">Delivered straight to your garage</div>
+                    </div>
+                </div>
+            </section>
+
+            <footer>
+                <div class="warning" id="warning"></div>
+                <div class="message" id="message"></div>
+                <button class="claim" id="claimBtn">Claim Kit</button>
+            </footer>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
